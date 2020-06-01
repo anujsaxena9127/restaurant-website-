@@ -1,5 +1,10 @@
 {% extends 'base.html' %} {% block body %}
-<div class="container-fluid">
+ {% load static %}
+  
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+
+<div class="container-fluid" id="contact" >
   <div
     id="carouselExampleIndicators"
     class="carousel slide"
@@ -63,22 +68,22 @@
     </a>
   </div>
 </div>
-<div class="container my-2">
-  <h1>My restaurant your Food</h1>
-  <div class="row">
+<div class="container my-2 " id="contact" >
+  <h1 class="text">My restaurant your Food</h1>
+  <div class="row" >
     <div class="card col-lg-3 mx-auto" style="width: 18rem;">
       <img
         src="/static/img/pizza.jpeg"
         class="card-img-top"
         alt="..."
       />
-      <div class="card-body">
+      <div class="card-body " >
         <h5 class="card-title">Pizza</h5>
-        <p class="card-text">
+        <p class="card-text" >
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </p>
-        <a href="#" class="btn btn-primary">Read More</a>
+        <a href="#" class="btn btn-success">Read More</a>
       </div>
     </div>
     <div class="card col-lg-3 mx-auto" style="width: 18rem;">
@@ -93,7 +98,7 @@
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </p>
-        <a href="#" class="btn btn-primary">Read More</a>
+        <a href="#" class="btn btn-success">Read More</a>
       </div>
     </div>
     <div class="card col-lg-3 mx-auto" style="width: 18rem;">
@@ -107,28 +112,28 @@
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </p>
-        <a href="#" class="btn btn-primary">Read More</a>
+        <a href="#" class="btn btn-success">Read More</a>
       </div>
     </div>
     <div class="card col-lg-3 mx-auto" style="width: 18rem;">
-      <img
-        src="/static/img/italian.jpeg"
+      <img src="/static/img/chicken.jpeg"
         class="card-img-top"
         alt="..."
       />
       <div class="card-body">
-        <h5 class="card-title">italian food</h5>
+        <h5 class="card-title">Chicken</h5>
         <p class="card-text">
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </p>
-        <a href="#" class="btn btn-primary">Read More</a>
+        <a href="#" class="btn btn-success">Read More</a>
       </div>
     </div>
+   
     
       <div class="container my-2">
         <div class="row">
-          <div class="card col-lg-3 mx-auto" style="width: 18rem;">
+          <div class="card col-lg-3 mx-2" style="width: 18rem;">
             <img
               src="/static/img/momos.jpeg"
               class="card-img-top"
@@ -141,10 +146,10 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-primary">Read More</a>
+              <a href="#" class="btn btn-success">Read More</a>
             </div>
           </div>
-          <div class="card col-lg-3 mx-auto" style="width: 18rem;">
+          <div class="card col-lg-3 mx-2" style="width: 18rem;">
             <img
               src="/static/img/colddrinks.jpeg"
               class="card-img-top"
@@ -157,10 +162,10 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-primary">Read More</a>
+              <a href="#" class="btn btn-success">Read More</a>
             </div>
           </div>
-          <div class="card col-lg-3 mx-auto" style="width: 18rem;">
+          <div class="card col-lg-3 mx-2" style="width: 18rem;">
             <img
               src="/static/img/sandwich.jpeg"
               class="card-img-top"
@@ -173,25 +178,10 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-primary">Read More</a>
+              <a href="#" class="btn btn-success">Read More</a>
             </div>
           </div>
-          <div class="card col-lg-3 mx-auto" style="width: 18rem;">
-            <img
-              src="/static/img/9.jpeg"
-              class="card-img-top"
-              alt="..."
-            />
          
-            <div class="card-body">
-              <h5 class="card-title">Rolls</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
-          </div>
           
        </div>
     
@@ -202,5 +192,6 @@
     </div>
   </div>
 </div>
+
 {% endblock body %}
 

@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f787d0a-c814-4dcc-bb2e-e18d08cb3cee" name="Default Changelist" comment="" />
+    <list default="true" id="9f787d0a-c814-4dcc-bb2e-e18d08cb3cee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/hello/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/myapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/myapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/myapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/myapp/migrations/0002_auto_20200501_0241.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/myapp/migrations/0003_auto_20200512_1041.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/myapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/myapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/myapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/myapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/static/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/hello/static/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/templates/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/templates/reservations.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/templates/reservations.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +30,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1a74jnrxwakS5jxbCGUlP0NGIIP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />

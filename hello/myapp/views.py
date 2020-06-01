@@ -5,7 +5,7 @@ from django.shortcuts import render,HttpResponse
 
 # Create your views here.
 #from myapp.models import Contact
-from .models import booking
+from .models import booking,table
 
 
 def index(request):
@@ -25,6 +25,22 @@ def menu(request):
 
 
 def reservations(request):
+
+    if request.method == "POST":
+        name = request.POST.get('name')
+        email = request.POST.get('email')
+        age = request.POST.get('age')
+
+        role = request.POST.get('role')
+        prefer = request.POST.get('prefer')
+        comment = request.POST.get('comment')
+        purpose=request.POST.get('purpose')
+
+        reservations = table(name=name, email=email, age=age,prefer=prefer,role=role,comment=comment,purpose=purpose)
+
+        reservations.save()
+
+
     return render(request, 'reservations.html')
 
 
