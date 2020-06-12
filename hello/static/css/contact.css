@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  
 }
 
 #contact {
@@ -16,7 +17,7 @@ body {
   margin: 0 auto;
   padding-top: 50px;
   margin-bottom: 50px;
-  font: 300 60px "Oswald", sans-serif;
+  font: 300 60px 'Oswald', sans-serif;
   letter-spacing: 6px;
   color: #fff;
   margin-bottom: 25px;
@@ -33,12 +34,11 @@ body {
 .form-horizontal {
   float: left;
   max-width: 400px;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-weight: 400;
 }
 
-.form-control,
-textarea {
+.form-control, textarea {
   max-width: 400px;
   background-color: #111;
   color: #fff;
@@ -50,18 +50,19 @@ textarea {
   height: 34px;
   width: 400px;
   overflow: show;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .button {
   width: 400px;
   height: 34px;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .send-text {
+  display: block;
   margin-top: 10px;
-  font: 300 14px "Lato", sans-serif;
+  font: 300 14px 'Lato', sans-serif;
   letter-spacing: 2px;
 }
 
@@ -89,7 +90,7 @@ textarea {
 }
 
 .contact-text {
-  font: 300 18px "Lato", sans-serif;
+  font: 300 18px 'Lato', sans-serif;
   letter-spacing: 1.9px;
   color: #bbb;
 }
@@ -117,6 +118,7 @@ textarea {
   text-decoration: none;
 }
 
+
 /* Social Media Icons */
 .social-media-list {
   position: relative;
@@ -130,7 +132,7 @@ textarea {
 }
 
 .social-media-list li {
-  position: relative;
+  position: relative; 
   top: 0;
   left: -20px;
   display: inline-block;
@@ -140,13 +142,13 @@ textarea {
   line-height: 70px;
   border-radius: 50%;
   color: #fff;
-  background-color: rgb(27, 27, 27);
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  background-color: rgb(27,27,27);
+  cursor: pointer; 
+  transition: all .2s ease-in-out;
 }
 
 .social-media-list li:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -156,17 +158,17 @@ textarea {
   border-radius: 50%;
   opacity: 0;
   box-shadow: 0 0 0 1px #fff;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .social-media-list li:hover {
-  background-color: #fff;
+  background-color: #fff; 
 }
 
 .social-media-list li:hover:after {
-  opacity: 1;
+  opacity: 1;  
   transform: scale(1.12);
-  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
 }
 
 .social-media-list li:hover a {
@@ -174,33 +176,32 @@ textarea {
 }
 
 .copyright {
-  font: 200 14px "Oswald", sans-serif;
+  font: 200 14px 'Oswald', sans-serif;
   color: #555;
   letter-spacing: 1px;
   text-align: center;
 }
 
 hr {
-  border-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255,255,255,.8); ;
 }
 
 /* Begin Media Queries*/
 @media screen and (max-width: 760px) {
-  #contact {
-    height: 1000px;
-  }
+    #contact {
+        height: 1000px;
+    }
   .section-header {
     font-size: 65px;
   }
-  .direct-contact-container,
-  .form-horizontal {
+  .direct-contact-container, .form-horizontal {
     float: none;
     margin: 10px auto;
-  }
+  }  
   .direct-contact-container {
     margin-top: 60px;
     max-width: 300px;
-  }
+  }    
   .social-media-list li {
     height: 60px;
     width: 60px;
@@ -216,30 +217,26 @@ hr {
 @media screen and (max-width: 569px) {
   #contact {
     height: 1200px;
-  }
-  .section-header {
+    }
+  .section-header{
     font-size: 50px;
   }
-  .direct-contact-container,
-  .form-wrapper {
+  .direct-contact-container, .form-wrapper {
     float: none;
     margin: 0 auto;
-  }
-  .form-control,
-  textarea {
+  }  
+  .form-control, textarea {
     max-width: 340px;
     margin: 0 auto;
   }
-
-  .name,
-  .email,
-  textarea {
+  
+  .name, .email, textarea {
     width: 280px;
-  }
+  } 
   .direct-contact-container {
     margin-top: 60px;
     max-width: 280px;
-  }
+  }  
   .social-media-list {
     left: 0;
   }
@@ -254,6 +251,7 @@ hr {
     height: 55px;
     line-height: 55px;
   }
+  
 }
 
 @media screen and (max-width: 410px) {

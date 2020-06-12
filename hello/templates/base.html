@@ -7,11 +7,18 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" 
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" 
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+      crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
 
     <title>{% block title %}{% endblock title %}</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg  fixed-top navbar-dark bg-dark">
         <a class="navbar-brand" href="/home">FOOD HOUSE</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -87,22 +94,22 @@
         <ul class="list-unstyled">
           <li>
             <p>
-              <a href="#!">PROJECTS</a>
+              <a href="#!">HOME</a>
             </p>
           </li>
           <li>
             <p>
-              <a href="#!">ABOUT US</a>
+              <a href="/aboutUs">ABOUT US</a>
             </p>
           </li>
           <li>
             <p>
-              <a href="#!">BLOG</a>
+              <a href="/gallery">GALLERY</a>
             </p>
           </li>
           <li>
             <p>
-              <a href="#!">AWARDS</a>
+              <a href="/reservations">BOOK A TABLE</a>
             </p>
           </li>
         </ul>
@@ -121,7 +128,7 @@
         <ul class="list-unstyled">
           <li>
             <p>
-              <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+              <i class="fas fa-home mr-3"></i>  Near PES Engineering College Rd, 3rd cross road , Mandya, Karnataka 571401</p>
           </li>
           <li>
             <p>
@@ -150,20 +157,15 @@
 
         <!-- Facebook -->
         <a type="button" class="btn-floating btn-fb">
-          <i class="fab fa-facebook-f"></i>
+          <i class="fa fa-facebook-f"></i>
         </a>
         <!-- Twitter -->
         <a type="button" class="btn-floating btn-tw">
-          <i class="fab fa-twitter"></i>
+          <i class="fa fa-twitter"></i>
         </a>
-        <!-- Google +-->
-        <a type="button" class="btn-floating btn-gplus">
-          <i class="fab fa-google-plus-g"></i>
-        </a>
+      
         <!-- Dribbble -->
-        <a type="button" class="btn-floating btn-dribbble">
-          <i class="fab fa-dribbble"></i>
-        </a>
+       
 
       </div>
       <!-- Grid column -->
@@ -174,11 +176,7 @@
   </div>
   <!-- Footer Links -->
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
+  
 
 </footer>
 <!-- Footer -->
